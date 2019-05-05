@@ -1,0 +1,24 @@
+//  获取上传的图片列表
+//  query: {
+//    pageNo: "第几页",
+//    pageSize: "每页的图片数量"
+//  }
+{
+  "code": 200,
+  "msg": "",
+  "data" :{
+    "list": [
+      {
+        "id": "",
+        "filename": "狗.jpg",
+        "origin_url": ""
+      },
+      {
+        "id": "",
+        "filename": "猫.jpg",
+        "origin_url": ""
+      }
+    ],
+    "total": "图片总数"
+  }
+}

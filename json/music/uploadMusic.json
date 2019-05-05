@@ -1,0 +1,12 @@
+// 表单形式上传，和picture实现一样
+// 单个上传，尺寸10M以内
+
+{
+  "code": 200,
+  "msg": "ok",
+  "data": {
+    "filename": "两只老虎.mp3",
+    "id": 123,
+    "origin_url": "http://localhost:8080/static/upload/music/Adam Levine - A Higher Place.mp3"
+  }
+}

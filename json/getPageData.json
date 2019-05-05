@@ -1,0 +1,36 @@
+{
+  // 场景
+  "scene": {
+    "width": 320,
+    "height": 568,
+    "direction": "vertical"
+  },
+  // 页面列表
+  "pageList": [
+    {
+      // 当前页的ID值
+      "id": 0,
+      // 元素列表
+      "elements": [
+        {
+          // 元素的唯一ID值
+          "id": 0,
+          // 不同类型的元素，所拥有的特性不同，比如文字有文本，图片有链接
+          "properties": {
+            // 动画列表
+            "animations": [],
+            // 文本元素特性
+            "text": "<p>元素内容</p>",
+            // 图片元素特性
+            "src": "/imageAddress/imageName.jpg"
+          },
+          // 元素的样式
+          "css": {},
+          // 元素的类型
+          "type": "text"
+        }
+      ],
+      ""
+    }
+  ]
+}

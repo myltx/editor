@@ -1,0 +1,22 @@
+// Query String Params
+// {
+//   "pageNo": 1,
+//   "pageSize": 15
+// }
+
+{
+  "code": 200,
+  "msg": "ok",
+  "data": {
+    "list": [{
+      "filename": "两只老虎.mp3",
+      "id": 123,
+      "origin_url": "http://localhost:8080/static/upload/music/Adam Levine - A Higher Place.mp3"
+      }, {
+      "filename": "两只老虎.mp3",
+      "id": 123,
+      "origin_url": "http://localhost:8080/static/upload/music/Adam Levine - A Higher Place.mp3"
+      }],
+    "total": 100
+  }
+}

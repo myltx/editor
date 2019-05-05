@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+@import '~common/stylus/variable'
+.el-pagination:before, .el-pagination:after{
+    display: table;
+    content: "";
+}
+.el-pagination:after{
+    clear: both;
+}
+
+.el-pagination{
+    white-space: nowrap;
+    padding: 2px 5px;
+    color: $color-text-ll;
+}
+
+.el-pagination span, .el-pagination button{
+    display: inline-block;
+    font-size: 14px;
+    min-width: 32px;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.el-pagination .el-select .el-input{
+    width: 110px;
+}
+
+.el-pagination .el-select .el-input input{
+    padding-right: 25px;
+    border-radius: 2px;
+    height: 28px;
+}
+
+.el-pagination button{
+    border: none;
+    padding: 0 6px;
+    background: transparent
+}
+
+.el-pagination button:focus{
+    outline: none;
+}
+
+.el-pagination button:hover{
+    color: $color-theme;
+}
+
+.el-pagination button.disabled{
+    color: $color-text-d;
+    background-color: $color-background-ll;
+    cursor: not-allowed;
+}
+
+.el-pagination .btn-prev, .el-pagination .btn-next{
+    background: center center no-repeat;
+    background-size: 16px;
+    background-color: $color-background-ll;
+    border: 1px solid $color-panel-background;
+    cursor: pointer;
+    margin: 0;
+    color: $color-text-ll;
+}
+
+.el-pagination .btn-prev .el-icon, .el-pagination .btn-next .el-icon{
+    display: block;
+    font-size: 12px;
+}
+
+.el-pagination .btn-prev{
+    border-radius: 2px 0 0 2px;
+    border-right: 0;
+}
+
+.el-pagination .btn-next{
+    border-radius: 0 2px 2px 0;
+    border-left: 0;
+}
+
+.el-pagination--small .btn-prev, .el-pagination--small .btn-next, .el-pagination--small .el-pager li, .el-pagination--small .el-pager li:last-child {
+    border-color: transparent;
+    font-size: 12px;
+    line-height: 22px;
+    height: 22px;
+    min-width: 22px;
+}
+
+.el-pagination--small .arrow.disabled {
+    visibility: hidden;
+}
+
+.el-pagination--small .el-pager li {
+    border-radius: 2px;
+}
+
+.el-pagination__sizes{
+    margin: 0 10px 0 0;
+}
+
+.el-pagination__sizes .el-input .el-input__inner {
+    font-size: 14px;
+    border-color: rgb(209, 219, 229)
+}
+
+.el-pagination__sizes .el-input .el-input__inner:hover{
+    border-color: #20a0ff;
+}
+
+.el-pagination__jump{
+    margin-left: 10px;
+}
+
+.el-pagination__total{
+    margin: 0 10px;
+}
+
+.el-pagination__rightwrapper{
+    float: right;
+}
+
+.el-pagination__editor{
+    border: 1px solid $color-panel-background;
+    background-color: $color-background-ll;
+    color: $color-text-ll;
+    border-radius: 2px;
+    line-height: 22px;
+    padding: 4px 2px;
+    width: 34px;
+    text-align: center;
+    margin: 0 6px;
+    box-sizing: border-box;
+    transition: border .3s;
+}
+
+.el-pagination__editor::-webkit-inner-spin-button, .el-pagination__editor::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.el-pagination__editor[type="number"]{
+    -moz-appearance:textfield
+}
+
+.el-pagination__editor:focus{
+    outline: none;
+    border-color: $color-theme;
+}
+
+.el-pager{
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.el-pager li{
+    padding: 0 4px;
+    border: 1px solid $color-panel-background;
+    border-right: 0;
+    background: $color-background-ll;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 14px;
+    min-width: 32px;
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0
+}
+
+.el-pager li:last-child{
+    border-right: 1px solid $color-panel-background;
+}
+
+.el-pager li.btn-quicknext, .el-pager li.btn-quickprev{
+    line-height: 32px;
+    color: $color-text-ll;
+}
+
+.el-pager li.btn-quickprev:hover{
+    cursor: pointer;
+}
+
+.el-pager li.btn-quicknext:hover{
+    cursor: pointer;
+}
+
+.el-pager li.active + li{
+    /*border-left: 0;*/
+    padding-left: 5px;
+}
+
+.el-pager li:hover{
+    color: $color-theme;
+}
+
+.el-pager li.active{
+    /*border-color: $color-theme;*/
+    background-color:  $color-theme;
+    color: #fff;
+    cursor: default;
+}

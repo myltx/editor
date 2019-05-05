@@ -1,0 +1,8 @@
+// Form Data 形式，和picture实现类似
+// id: 123
+// 逐个删除
+
+{
+  "code": 200,
+  "msg": "ok"
+}

@@ -1,0 +1,77 @@
+{
+  "scene": {
+    "width": 320,
+    "height": 568,
+    "direction": "vertivcal",
+    "speed": 1,
+    "autoPlay": 2,
+    "loop": false,
+    "backMusic": {
+      "filename": "",
+      "id": 1,
+      "origin_url": ""
+    }
+  },
+  "pageList": [
+    {
+      "id": 123456789,
+      "elements": [
+        {
+          "id": "pana_1234567",
+          "css": {
+            "top": 100,
+            "left": 100,
+            "width": 100,
+            "height": 100,
+            "rotate": 0,
+            "zIndex": 1,
+            "opacity": 1,
+            "backgroundColor": "",
+            "borderWidth": 0,
+            "borderStyle": "solid",
+            "borderColor": "rgba(0, 0, 0, 1)",
+            "borderRadius": 0,
+            "boxShadowX": 0,
+            "boxShadowY": 0,
+            "boxShadowColor": "rgba(0, 0, 0, 0)",
+            "boxShadowSize": 0,
+            "boxShadowBlur": 0
+          },
+          "preperties": {
+            "animations": [{
+              "id": 123456,
+              "count": 1,
+              "delay": 0,
+              "duration": 1,
+              "name": "bounce",
+              "timing": "ease"
+            }],
+            // text类型
+            "text": "<p><span style='font-size: 24px'>中号字</span></p>",
+            // picture类型
+            "origin_url": "",
+            // album类型
+            "direction": "vertivcal",
+            "speed": 1,
+            "autoPlay": 2,
+            "loop": false,
+            "pictures": [
+              {
+                "filename": "",
+                "id": 1,
+                "origin_url": ""
+              }
+            ]
+          },
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
+
+//  {
+//    code: 200,
+//    msg: 'ok',
+//    id: 123
+//  }

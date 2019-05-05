@@ -1,0 +1,21 @@
+// Query String Params
+// {
+//   pageSize: 10,
+//   pageNo: 1
+// }
+
+{
+  "code": 200,
+  "msg": "ok",
+  "data": {
+    "list": [{
+      "id": "1",
+      "filename": "两只老虎.mp4",
+      // 视频源
+      "origin_url": "",
+      // 封面
+      "cover_url": ""
+    }],
+    "total": 10
+  }
+}
